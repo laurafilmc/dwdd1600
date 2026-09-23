@@ -1,0 +1,165 @@
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    margin: 0;
+}
+
+/* header here */
+header {
+    background-color: #E2E8D5;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #3D3C32;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+/* navigation here*/
+nav {
+    background-color: #556B5E;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #FFF3B0;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #FFF3B0;
+    color: #556B5E;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main here*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #3D3C32
+}
+
+main h2 {
+    color: #556B5E;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #E2E8D5;
+}
+
+main dl dt {
+    color: #556B5E;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #556B5E;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #FFF3B0;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #00008b;
+    width: 200px;
+}
+
+main a {
+    color: #00008b;
+}
+
+main a:hover {
+    color: #556B5E;
+}
+
+/*main image stuff here*/
+figure.heroimage {
+    margin: 0;
+    width: 12%;
+    float: right;
+}
+
+figure.heroimage img {
+    width: 100%;
+    height: auto;
+}
+
+figure.heroimage figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* gallery stuff*/
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption{
+    text-align: center;
+    font-size: .8rem;
+    color: #556B5E;
+    font-weight: bold;
+}
+
+/* footer here*/
+footer {
+    background-color: #E2E8D5;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #3D3C32
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
