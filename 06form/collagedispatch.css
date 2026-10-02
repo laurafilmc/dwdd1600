@@ -149,7 +149,7 @@ div.gallery figcaption{
     color: #556B5E;
     font-weight: bold;
 }
-
+/* form stuff*/
 .myForm fieldset {
     border: 2px solid #556B5E;
     border-radius: 4px;
@@ -163,13 +163,14 @@ div.gallery figcaption{
     margin: .5rem;
 }
 
-.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel],
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel],[type="email"],
 .myForm textarea {
     display: block;
 }
 
 .myForm [type=text],
 .myForm [type=tel],
+.myForm [type="email"],
 .myForm select,
 .myForm textarea {
     border: solid 1px #888;
