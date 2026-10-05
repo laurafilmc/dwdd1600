@@ -30,7 +30,7 @@ header p {
 }
 
 /* small screen navigation */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     nav ul {
         margin: 0;
         padding: 0;
@@ -57,7 +57,7 @@ header p {
 /* end small screen */
 
 /* LARGE SCREEN NAVIGATION */
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 601px) {
     nav {
         border-top: solid 1px #E0E6E6;
 
@@ -120,9 +120,13 @@ main a {
     color: #9c3335;
 }
 
-.angelohero {
+.angelohero img {
     width: 100%;
     height: auto;
+    margin: block;
+}
+
+.angelohero {
     margin: 0;
 }
 
