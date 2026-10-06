@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Laura Carroll">
+    <meta name="description" content="create a site to connect artists and enthusiasts with creativy through mail">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="collagedispatch.css">
+    <title>CollageDispatch: Art Mail Club</title>\
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+</head>
+
+<body>
+    <!--start the page header-->
+    <header>
+        <img src="images/logo.webp" alt="Snail Mail holding a letter" width="43" height="50">
+        <span>CollageDispatch</span>
+    </header>
+
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li> <a href="index.html">Art Mail Club</a></li>
+            <li> <a href="whatsincluded.html">whats included</a></li>
+            <li> <a href="moodboard.html">Mood Board</a></li>
+            <li class="active"> <a href="signup.html">Sign Up</a></li>
+
+        </ul>
+
+    </nav>
+    <!--start the page main-->
+    <main>
+        <h1>Sign Up</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Your Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="Lname" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+                <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Frequency</legend>
+                <label><input type="radio" name="method" value="onceamonth">One Letter a Month</label>
+                <label><input type="radio" name="method" value="twiceamonth">Two Letters a Month</label>
+                <label><input type="radio" name="method" value="threeamonth">Three Letters a Month</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="Email" value="chosen"> Email</label>
+                <label><input type="checkbox" name="Snail Mail" value="chosen"> Snail Mail</label>
+                <label><input type="checkbox" name="Expedited Shipping" value="chosen"> Expedited Shipping</label>
+                <label><input type="checkbox" name="Garage" value="Mixed"> Mix of these options</label>
+
+                <label>Preferred Delivery Time
+                    <select name="time">
+                        <option value="none">No Preference</option>
+                        <option value="morning">Between 7am to 12pm</option>
+                        <option value="noon">Between 12pm to 3pm</option>
+                        <option value="afternoon">Between 3pm to 5pm</option>
+                        <option value="evening">Between 5pm to 9pm</option>
+                    </select>
+                </label>
+
+            </fieldset>
+            <label>If you marked Mixed for the Delivery please specify here
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Sign up complete">
+        </form>
+    </main>
+
+    <!-- start the page footer-->
+    <footer>
+        <p>&copy; 2026 &bull; Laura Carroll &bull; CollageDispatch</p>
+    </footer>
+
+
+
+</body>
+
+</html>
